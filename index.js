@@ -7,7 +7,7 @@ app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
 	let pan = request.query.pan;
-	response.send(search(pan))
+	response.send(search(pan));
 })
 
 function search(pan){
@@ -16,7 +16,7 @@ function search(pan){
             return myArray[i];
         }
     }
-    return "NOT FOUND"
+    return "NOT FOUND";
 }
 
 app.listen(app.get('port'), function() {
