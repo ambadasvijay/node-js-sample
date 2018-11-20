@@ -2,12 +2,12 @@
   {
     "PAN": "BJPQS4450M",
     "Age": 37,
-    "Salary": 850,
+    "Salary": 2207502,
     "Yrs_of_Exp": 1,
     "Time_in_bureau": 73,
     "Num_cc": 8,
-    "Time_since_last_delinq": 16,
-    "Max_dpd": 159
+    "Time_since_last_delinq": 25,
+    "Max_dpd": 0
   },
   {
     "PAN": "AJKSQ1243J",
@@ -16,8 +16,8 @@
     "Yrs_of_Exp": 9,
     "Time_in_bureau": 30,
     "Num_cc": 8,
-    "Time_since_last_delinq": 3,
-    "Max_dpd": 86
+    "Time_since_last_delinq": 21,
+    "Max_dpd": 0
   },
   {
     "PAN": "VJKAS6789S",
@@ -27,7 +27,7 @@
     "Time_in_bureau": 18,
     "Num_cc": 4,
     "Time_since_last_delinq": 6,
-    "Max_dpd": 82
+    "Max_dpd": 29
   },
   {
     "PAN": "PQRST1212K",
@@ -37,7 +37,7 @@
     "Time_in_bureau": 34,
     "Num_cc": 4,
     "Time_since_last_delinq": 2,
-    "Max_dpd": 75
+    "Max_dpd": 38
   },
   {
     "PAN": "QSQTM7876P",
@@ -46,7 +46,7 @@
     "Yrs_of_Exp": 3,
     "Time_in_bureau": 50,
     "Num_cc": 2,
-    "Time_since_last_delinq": 4,
+    "Time_since_last_delinq": 56,
     "Max_dpd": 79
   }
 ]
