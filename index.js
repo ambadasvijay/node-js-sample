@@ -19,37 +19,31 @@ app.get('/', function(request, response) {
 	}
 })
 
-// get by age (first match)
-app.get('/age/', function(request, response) {
-	let pan = request.query.age;
-	response.send(searchByAge(age));
-})
-
 function search(pan){
     for (var i=0; i < myArray.length; i++) {
         if (myArray[i].PAN === pan) {
             return myArray[i];
         }
     }
-    return "NOT FOUND";
+    return "NOT FOUND for pan";
 }
 
 function searchByAge(age){
     for (var i=0; i < myArray.length; i++) {
-        if (myArray[i].Age === age) {
+        if (myArray[i].Age == age) {
             return myArray[i];
         }
     }
-    return "NOT FOUND";
+    return "NOT FOUND for age";
 }
 
 function searchByPanAndAge(pan,age){
     for (var i=0; i < myArray.length; i++) {
-        if (myArray[i].Age === age && myArray[i].PAN === pan) {
+        if (myArray[i].Age == age && myArray[i].PAN === pan) {
             return myArray[i];
         }
     }
-    return "NOT FOUND";
+    return "NOT FOUNDfor both";
 }
 
 app.listen(app.get('port'), function() {
